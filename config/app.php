@@ -148,6 +148,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Serverfireteam\Blog\BlogServiceProvider::class,
+        GeneaLabs\LaravelCaffeine\LaravelCaffeineServiceProvider::class,
 
         /*
          * Application Service Providers...

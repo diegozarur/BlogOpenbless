@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class franquia extends Model {
 
     protected $table = 'franquias';
+    
     function getUrl5(){
         return \Config::get('app.url') .'/franquias/'. $this->id . '/' . \Serverfireteam\blog\BlogController::seoUrl($this->title);
     }
