@@ -24,10 +24,10 @@ class ContatoFormRequest extends Request
     public function rules()
     {
         return [
-            'nome' => 'nome',
+            //'nome' => 'nome',
             'email' => 'required|email',
-            'telefone' => 'telefone',
-            'message' => 'message',
+            //'telefone' => 'telefone',
+            //'message' => 'message',
         ];
     }
 }

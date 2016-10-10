@@ -1,7 +1,7 @@
 Visitante deixou email para retornar:
 
 <p>
-Nome: {{ $name }}
+Nome: {{ $nome }}
 </p>
 
 <p>

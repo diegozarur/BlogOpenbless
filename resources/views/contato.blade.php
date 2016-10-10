@@ -25,7 +25,7 @@
     {!! Form::text('nome', null, 
         array('required', 
               'class'=>'form-control', 
-              'placeholder'=>'Your name')) !!}
+              'placeholder'=>'Seu Nome')) !!}
 </div>
 
 <div class="form-group">

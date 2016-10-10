@@ -57,13 +57,7 @@
                @foreach($galeria as $imoveis)
                  <div class="col-md-6 card-item">                 
                    <div class="card-thumbnail">
-                     <a href="{{$imoveis->getUrl4()}}"><img src="uploads/{{$imoveis['image']}}" alt="{{$imoveis['title']}}" class="thumbnail open-thumb"></a>
-                     <div class="card-meta">
-                       <ul class="list">
-                         <li><a href="#"><i class="fa fa-heart"></i>12</a></li>
-                         <li><a href="#"><i class="fa fa-comment"></i>3</a></li>
-                       </ul>
-                     </div>
+                     <a href="{{$imoveis->getUrl4()}}"><img src="uploads/{{$imoveis['image']}}" alt="{{$imoveis['title']}}" class="thumbnail open-thumb"></a>                     
                    </div>
                    <div class="col-inner">
                      <h4 class="title">
